@@ -94,7 +94,32 @@ p{
     margin-left: 500px;
     margin-right: 500px;
 }
+footer{
 
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 
+}
+#footer{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-weight:1;
+    font-size: 15px;
+    
+
+}
+#be-humble{
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+
+    
+
+}
 
 
