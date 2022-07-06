@@ -2,26 +2,29 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
+    text-align: center;
     line-height: 1.5;
 }
 
 
 
 .hero-image{
-    text-align: center;
     margin:0;
     background-image:url(images/donation15.jpg);
     background-size: cover;
-    background-position: center;
     padding:150px;
     color: white;
    
     background-repeat: no-repeat;
     
 }
+
 h1{
     font-size: 90px;
 
+}
+h2{
+    font-size: 40px;
 }
 p{
     font-size: 20px;
@@ -34,7 +37,64 @@ p{
     padding: 10px 40px;
     background-image:linear-gradient(rgb(255, 204, 0),rgb(255, 71, 138));
     font-weight: 500;
-    
-    
 
 }
+.amount{
+    margin-top: 30px;
+    color: gray;
+}
+.button{
+    border: 300px;
+    
+}
+.links-list a{
+    display:inline-block;
+    text-decoration: none;
+    border-color: red;
+}
+.tk-button{
+        background-color: white;
+        border-radius: 5px;
+        color:grey;
+        font-weight: 700;
+        padding: 50px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+        
+      }
+
+.tk-button:hover{
+    background-color: rgb(243, 187, 187);
+    border: 1px solid red;
+    color:red;
+
+}
+:target {
+    background-color: rgb(243, 187, 187);
+    border: 1px solid red;
+    color:red;
+  }
+.amount-selection{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+}
+#other-amount{
+    border: none;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight:300;
+}
+#line{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+
+
